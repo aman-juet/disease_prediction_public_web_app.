@@ -14,15 +14,7 @@ from streamlit_option_menu import option_menu
 # loading the saved models
 '''
 
-diabetes_model = pickle.load(open(
-    'C:/Users/amank/OneDrive/Desktop/Multiple Disease Prediction System/Saved Models/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open(
-    'C:/Users/amank/OneDrive/Desktop/Multiple Disease Prediction System/Saved Models/heart_disease_model.sav', 'rb'))
-parkinsons_model = pickle.load(open(
-    "C:/Users/amank/OneDrive/Desktop/Multiple Disease Prediction System/Saved Models/parkinsons_model.sav", 'rb'))
-cancer_model = pickle.load(open(
-    "C:/Users/amank/OneDrive/Desktop/Multiple Disease Prediction System/Saved Models/cancer_model.sav", 'rb'))
-'''
+
 
 
 
@@ -360,14 +352,8 @@ if(selected == 'Breast Cancer Detection'):
         st.success(cancer_diagnosis)
         
 
-'''
-path = "'C:/Users/amank/OneDrive/Desktop/Multiple Disease Prediction System/Saved Models/diabetes_model.sav'"
 
-file_name = os.path.abspath(path)
-
-print(file_name)
-        
-''' 
+         
         
 
 
