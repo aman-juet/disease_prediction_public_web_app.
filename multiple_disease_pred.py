@@ -237,7 +237,7 @@ if (selected == "Parkinsons Prediction"):
 
 if(selected == 'Breast Cancer Detection'):
     st.title('Breast Cancer Detection using ML')
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         meanradius = st.number_input('Mean radius')
@@ -248,39 +248,39 @@ if(selected == 'Breast Cancer Detection'):
     with col3:
         meanperimeter = st.number_input('Mean Perimeter')
 
-    with col4:
+    with col1:
         meanarea = st.number_input('Mean Area')
 
-    with col5:
+    with col2:
         meansmoothness = st.number_input('Mean smoothness')
 
-    with col1:
+    with col3:
         meancompactness = st.number_input('Mean Compactness ')
 
-    with col2:
+    with col1:
         meanconcavity = st.number_input('Mean Concavity')
 
-    with col3:
+    with col2:
         meanconcavepoints = st.number_input('Mean Concave points')
 
-    with col4:
+    with col3:
         meansymmetry = st.number_input('Mean symmetry')
 
-    with col5:
+    with col1:
         meanfractaldimension = st.number_input('Mean fractal dimension')
 
-    with col1:
+    with col2:
         radiuserror = st.number_input('Radius error')
 
-    with col2:
+    with col3:
         textureerror = st.number_input('texture error')
 
-    with col3:
+    with col1:
         perimetererror = st.number_input('Perimeter error')
-    with col4:
+    with col2:
         areaerror = st.number_input('Area Error')
 
-    with col5:
+    with col3:
         smoothnesserror = st.number_input('Smoothness error')
 
     with col1:
@@ -292,40 +292,40 @@ if(selected == 'Breast Cancer Detection'):
     with col3:
         concavepointserror = st.number_input('Concave points error')
 
-    with col4:
+    with col1:
         symmetryerror = st.number_input('Symmetry error')
 
-    with col5:
+    with col2:
         fractaldimensionerror = st.number_input('Fractal dimension error')
 
-    with col1:
+    with col3:
         worstradius = st.number_input('Worst radius')
 
-    with col2:
+    with col1:
         worsttexture = st.number_input('Worst Texture')
 
-    with col3:
+    with col2:
         worstperimeter = st.number_input('Worst perimeter')
 
-    with col4:
+    with col3:
         worstarea = st.number_input('Worst area')
 
-    with col5:
+    with col1:
         worstsmoothness = st.number_input('Worst Smoothness')
 
-    with col1:
+    with col2:
         worstcompactness =st.number_input('Worst compactness')
 
-    with col2:
+    with col3:
         worstconcavity = st.number_input('Worst concavity')
 
-    with col3:
+    with col1:
         worstconcavepoints = st.number_input('Worst Concave points')
 
-    with col4:
+    with col2:
         worstsymmetry = st.number_input('Worst Symmetry ')
 
-    with col5:
+    with col3:
         worstfractaldimension = st.number_input('Worst fractal dimension')
 
         cancer_diagnosis = ''
